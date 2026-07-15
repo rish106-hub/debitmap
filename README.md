@@ -4,6 +4,9 @@
 
 DebitMap answers one question: **which recurring payments are likely to debit me in the next 30 days?**
 
+- Live demo: [debitmap-watch.hackathon481443.chatgpt.site](https://debitmap-watch.hackathon481443.chatgpt.site)
+- Android APK: [download the debug build](https://debitmap-watch.hackathon481443.chatgpt.site/debitmap-android.apk)
+
 It turns Indian bank and payment messages into an explainable commitment calendar. It detects subscriptions, UPI AutoPay, card payments, EMIs, insurance, utilities, NACH, and standing instructions when the messages contain enough evidence.
 
 This repository contains:
@@ -73,6 +76,8 @@ cd android
 
 The APK requires Android 8 or newer. Google Play treats SMS access as restricted. SMS-based money management is an eligible exception, but publishing still requires a permissions declaration and review. The prototype is distributed as a direct APK.
 
+Published APK SHA-256: `feea57b1331dfec29897d14db426b055c4519457690eacc1f95829d6ad629d7d`
+
 ## Dataset and measured results
 
 The primary dataset is [FinEE](https://huggingface.co/datasets/Ranjit0034/finee-dataset), released under Apache 2.0. It contains more than 152,000 Indian financial messages across English, Hindi, Tamil, Telugu, Bengali, and Kannada. Most records are synthetic.
@@ -113,4 +118,3 @@ Read [PRIVACY.md](PRIVACY.md) before testing with personal messages.
 ## License
 
 Apache 2.0. See [LICENSE](LICENSE).
-

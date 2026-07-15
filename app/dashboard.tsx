@@ -127,6 +127,7 @@ export function DebitMapDashboard() {
         <div className="top-actions">
           <span className="private-note"><span className="status-dot" /> Stateless demo</span>
           <a className="text-link" href="#how">How it works</a>
+          <a className="text-link" href="/debitmap-android.apk" download>Android APK</a>
           <a className="button button-small" href="#try">Try your data</a>
         </div>
       </header>
@@ -272,7 +273,7 @@ export function DebitMapDashboard() {
       <footer>
         <div className="brand"><span className="brand-mark">D</span><span>DebitMap</span></div>
         <p>A working consumer-finance prototype. Predictions are estimates, not payment instructions.</p>
-        <div><a href="/api/v1/parse">API</a><a href="https://github.com/rish106-hub/debitmap" target="_blank" rel="noreferrer">Source</a><a href="#top">Back to top ↑</a></div>
+        <div><a href="/debitmap-android.apk" download>APK</a><a href="https://github.com/rish106-hub/debitmap" target="_blank" rel="noreferrer">Source</a><a href="#top">Back to top ↑</a></div>
       </footer>
     </main>
   );
