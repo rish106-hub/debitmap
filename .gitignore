@@ -45,3 +45,5 @@ next-env.d.ts
 /android/local.properties
 *.jks
 *.keystore
+__pycache__/
+*.py[cod]
